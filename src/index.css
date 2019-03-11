@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Regular";
-  src: url(./fonts/TrajanPro-Regular.woff);
+  src: url(/fonts/TrajanPro-Regular.woff);
 }
 
 body {
