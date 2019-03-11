@@ -1,0 +1,12 @@
+.contact-page {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(../../images/bg-image.jpg);
+    background-position: center;
+    background-size: cover; */
+    background: black;
+    /* display: flex; */
+    padding: 3.5vh;
+    /* align-items: center; */
+    color: white;
+}

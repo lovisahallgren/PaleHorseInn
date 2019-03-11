@@ -1,0 +1,29 @@
+h3 {
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.95);
+}
+
+a {
+    text-decoration: none;
+}
+
+.homeItem1 {
+ position: absolute;
+ width: 11%;
+ left: 44.5%;
+ top: 23%;
+}
+
+.homeItem2 {
+    position: absolute;
+    left: 22vw;
+    bottom: 10%;
+}
+
+.homeItem3 {
+    position: absolute;
+    bottom: 9.7%;
+    right: 25vw;
+}

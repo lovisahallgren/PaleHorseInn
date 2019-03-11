@@ -1,0 +1,35 @@
+i {
+    color: white;
+    font-size: 2em;
+    position: fixed;
+    right: 3vw;
+    top: 3vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 0;
+}
+
+.home-btn {
+    /* padding-top: 5vh; */
+    color: white;
+    position: absolute;
+    right: 7vw;
+    top: 3.5vh;
+}
+
+ul {
+    display: none;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    right: 0;
+    top: 10%;
+    background-color: tomato;
+}
