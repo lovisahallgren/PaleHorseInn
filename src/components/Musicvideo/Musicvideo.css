@@ -1,0 +1,25 @@
+.musicvideos-page {
+    width: 100vw;
+    height: auto;
+    /* background-image: url(../../images/bg-image.jpg);
+    background-position: center;
+    background-size: cover; */
+    background: black;
+    /* display: flex; */
+    padding: 10vh 3vw 5vh 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.musicvideos-container {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* padding: 5%; */
+        /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}

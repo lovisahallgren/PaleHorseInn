@@ -4,8 +4,8 @@ import './PictureItem.css';
 const PictureItem = (props) => {
     return(
         <div>
-            <img className="pics-pic" src={props.image} alt="" />
-            {/* <p>{props.name}</p> */}
+            <img className="pic-grid" src={props.image} alt="" />
+            <p>{props.name}</p>
         </div>
     )
 }

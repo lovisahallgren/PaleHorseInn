@@ -31,5 +31,5 @@ ul {
     justify-content: space-around;
     right: 0;
     top: 10%;
-    background-color: tomato;
+    background-color: rgba(99, 99, 99, 0.7);
 }
