@@ -43,6 +43,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .main-content {
+        height: 25vh;
+        position: static;
+    }
+
     .bg {
         display: none;
     }
@@ -58,24 +63,30 @@
         text-decoration: none;
     }
 
-    .homeItem1 {
+    .homeItem1, .homeItem2, .homeItem3 {
         border: none;
         padding: 0;
-        position: absolute;
+        height: 0;
+        /* position: absolute; */
+    }
+
+    .homeItem1 {
         width: 11%;
         left: 44.5%;
-        top: 23%;
+        top: 25%;
     }
 
     .homeItem2 {
-        position: absolute;
-        left: 22%;
-        bottom: 10%;
+        /* position: absolute; */
+        left: 30%;
+        top: 85%;
     }
-
+    
     .homeItem3 {
-        position: absolute;
-        bottom: 9.7%;
-        right: 25vw;
+        /* position: absolute; */
+        left: -13%;
+        top: 84.8%;
+        /* bottom: 9.7%;
+        right: 25vw; */
     }
 }
