@@ -5,8 +5,8 @@ const VideoItem = (props) => {
     return(
         <div>
             <img className="video-grid" src={props.image} alt="" />
-            <p>{props.name}</p>
-            <p>{props.description}</p>
+            {/* <p>{props.name}</p> */}
+            {/* <p>{props.description}</p> */}
         </div>
     )
 }

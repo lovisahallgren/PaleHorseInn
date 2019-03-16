@@ -16,7 +16,7 @@ class Navbar extends Component {
     handleClick() {
         this.setState(prevState => {
             return {
-                navbarIsOpen: !prevState.navbarIsOpen
+                navbarIsOpen: !prevState.navbarIsOpen,
             }
         })
     }
@@ -34,10 +34,25 @@ class Navbar extends Component {
                 </Link>
                     <i className="fas fa-bars" onClick={this.handleClick}></i>
                 </div>
-                <ul style={this.state.navbarIsOpen ? showNavbarStyle : null}>
-                    <Link to="/contact"><NavbarItem navbarItemText="Contact"></NavbarItem></Link>
-                    <Link to="/pictures"><NavbarItem navbarItemText="Pics"></NavbarItem></Link>
-                    <Link to="/about"><NavbarItem navbarItemText="About Us"></NavbarItem></Link>
+                <ul className="navbar-nav" style={this.state.navbarIsOpen ? showNavbarStyle : null}>
+                    <Link onClick={this.handleClick} to="/musicvideos">
+                        <NavbarItem navbarItemText="Music Videos"></NavbarItem>
+                    </Link>
+                    <Link onClick={this.handleClick} to="/cinematic">
+                        <NavbarItem navbarItemText="Cinematic"></NavbarItem>
+                    </Link>
+                    <Link onClick={this.handleClick} to="/presentation">
+                        <NavbarItem navbarItemText="Presentation"></NavbarItem>
+                    </Link>
+                    <Link onClick={this.handleClick} to="/pictures">
+                        <NavbarItem navbarItemText="Pics"></NavbarItem>
+                    </Link>
+                    <Link onClick={this.handleClick} to="/about">
+                        <NavbarItem navbarItemText="About Us"></NavbarItem>
+                    </Link>
+                    <Link onClick={this.handleClick} to="/contact">
+                        <NavbarItem navbarItemText="Contact"></NavbarItem>
+                    </Link>
                 </ul>
             </nav>
         )

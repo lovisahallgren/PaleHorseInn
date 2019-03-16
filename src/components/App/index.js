@@ -7,7 +7,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Cinematic from '../Cinematic';
 import Picture from '../Picture';
-// import Presentation from '../Presentation';
+import Presentation from '../Presentation';
 import Musicvideo from '../Musicvideo';
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/cinematic" component={Cinematic} />
         <Route path="/pictures" component={Picture} />
         <Route path="/musicvideos" component={Musicvideo} />
-        {/* <Route path="/presentation" component={Presentation} /> */}
+        <Route path="/presentation" component={Presentation} />
       </div>
   );
 }

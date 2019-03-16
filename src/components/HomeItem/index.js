@@ -5,8 +5,11 @@ import './HomeItem.css';
 
 const HomeItem = (props) => {
     return (
+        <div className="main-content">
+        <div className="bg"></div>
         <div className={props.id}>
-            <h3>{props.homeTitle}</h3>
+            <h3 className="homeTitle">{props.homeTitle}</h3>
+        </div>
         </div>
     )
 }

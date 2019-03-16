@@ -4,6 +4,9 @@
     color: rgba(213, 205, 205, 0.64);
     text-transform: uppercase;
     justify-content: center;
+    /* position: absolute;
+    top: 1vh;
+    left: 30%; */
 }
 
 .titleWord {
@@ -13,4 +16,13 @@
 .titleWord::first-letter {
     font-size: 1.2em;
     color: rgba(255, 0, 0, 0.64);
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 0.8em;
+    }
+    .titleWord{
+        border-bottom: 1px solid white;
+    }
 }
